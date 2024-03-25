@@ -12,6 +12,8 @@ body{
     display: flex;
     justify-content: space-between;
     margin-left: 30px;
+    position: sticky;
+    top: 0;
 }
 .navbar__s2{
     display: flex;
@@ -46,6 +48,8 @@ body{
     width: 80px;
     font-weight: bolder;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 .navbar__s6{
     width: 45%;
@@ -57,11 +61,15 @@ body{
     margin-left: 400px;
     margin-right: 400px;
     gap: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 .navbar__s6 input{
     width: 100%;
     font-size: medium;
     border: none;
+    background-color: transparent;
 }
 .navbar__s6 input:focus{
     outline: none;
